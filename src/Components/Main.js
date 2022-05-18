@@ -12,7 +12,7 @@ const Main = () => {
 
     //data pick from database through node server
     useEffect(() => {
-        fetch('http://localhost:5000/task')
+        fetch('https://intense-wildwood-66788.herokuapp.com/task')
             .then(res => res.json())
             .then(data => setUsers(data))
     }, [users])
@@ -23,7 +23,7 @@ const Main = () => {
 
         console.log(data)
 
-        fetch('http://localhost:5000/todo', {
+        fetch('https://intense-wildwood-66788.herokuapp.com/todo', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -45,7 +45,7 @@ const Main = () => {
     const deleteHandler = (id) => {
         const proceed = window.confirm('Are you sure for Delete .........')
         if (proceed) {
-            const url = `http://localhost:5000/task/${id}`
+            const url = `https://intense-wildwood-66788.herokuapp.com/task/${id}`
             console.log(url);
             fetch(url, {
                 method: 'delete'
