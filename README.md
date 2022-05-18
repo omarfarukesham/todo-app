@@ -1,10 +1,18 @@
-# Getting Started with Create React App
+# Todo react app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To enjoy your todo task, visit Live website [Todo](https://to-do-40e43.web.app/).
 
-## Available Scripts
+## Usage Technology
+*React js
+*React router
+*reat bootstrap form
+*Firebase Authentication
+*React auth hooks.
+*Nodjs
+*express js
+*heroku server
 
-In the project directory, you can run:
+
 
 ### `npm start`
 
